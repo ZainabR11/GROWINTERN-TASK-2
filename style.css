@@ -1,0 +1,261 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dosis:wght@200&family=Gabarito&family=Oswald:wght@500&family=Rubik:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'rubik';
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: black;
+    color: white;
+    position: relative;
+ }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10%;
+    margin-left: -100px;
+}
+
+.nav-links{
+    text-align: right;
+    background: yellowgreen;
+    padding: 10px 30px;
+    border-bottom-right-radius: 20px;
+    margin-right: 140px;
+}
+
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 10px 25px;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links ul li a:hover{
+    color: black;
+}
+
+/* .left-sidebar{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+
+} */
+
+.row{
+    padding: 0 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -1%;
+}
+
+/* .left-col{
+flex-basis: 40%;
+margin-top: 100px;
+
+} */
+
+/* 
+.right-col{
+    flex-basis: 55%;
+    margin-bottom: 300px;
+}  */
+
+.left-col img{
+   
+    cursor: pointer;
+    margin-left: -200px;
+    margin-top: 100px;
+    /* filter: grayscale(0);
+    transition: filter 1s; */
+}
+/* .left-col img:hover{
+    filter: grayscale(-1);
+} */
+.right-col{
+    margin-bottom: 100px;
+}
+
+.right-col h1{
+    font-style: 55px;
+    font-weight: 600;
+    font-size: 70px;
+    margin-left: 100px;
+}
+h2{
+    font-size: 60px;
+    align-items: center;
+    margin-left: 100px;
+}
+.right-col p{
+color: grey;
+margin: 20px 0 70px;
+font-size: 30px;
+margin-left: 100px;
+}
+
+.social-media{
+    display: flex;
+    margin-bottom: -100px;
+    /* margin-left: -100px; */
+   margin-left: 600px;
+}
+.d{
+    margin-left: 600px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    background: rgb(163, 5, 5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.icon a{
+    width: 100px;
+}
+
+#ic1 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+
+#ic1 a:hover{
+    opacity: 1;
+} 
+
+#ic1:hover{
+    transform: translateY(-10px);
+}
+
+#ic2 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#ic2 a:hover{
+    opacity: 1;
+} 
+
+#ic2:hover{
+    transform: translateY(-10px);
+}
+
+#ic3 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#ic3 a:hover{
+    opacity: 1;
+} 
+
+#ic3:hover{
+    transform: translateY(-10px);
+}
+
+#ic4 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+#ic4 a:hover{
+    opacity: 1;
+} 
+
+#ic4:hover{
+    transform: translateY(-10px);
+}
+#ic1 a{
+    color: white;
+    font-size: bold;
+}
+#ic2 a{
+    color: white;
+    font-size: bold;
+}
+#ic3 a{
+    color: white;
+    font-size: bold;
+}
+ #ic4 a{
+    color: white;
+    font-size: bold;
+}
+
